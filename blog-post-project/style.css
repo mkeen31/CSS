@@ -41,23 +41,49 @@ h2 {
 
 #author-text {
     font-size: 22px;
+    float: left;
+    margin: 35px 0 0 10px;
 }
 
 .blog-post {
-    background-color: #0000ff;
+    /*background-color: #0000ff;*/
     width: 75%;
     float: left;
     padding-right: 30px;
+    margin-bottom: 15px;
+    position: relative;
 }
 
 .other-posts {
-    background-color: #00ff00;
+    /*background-color: #00ff00;*/
     width: 25%;
     float: left;
 }
 
 .author-box {
-    background-color: #ffff00;
-    border: 1px solid #696969;
+    /*background-color: #ffff00;*/
+    border-top: 1px solid #696969;
     padding-top: 20px;
+}
+
+.other {
+    margin-bottom: 40px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
 }
